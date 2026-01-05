@@ -1,0 +1,500 @@
+
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="landing">
+        <nav>
+        <div class="row nav__row">
+          <div class="nav__logo">
+            <img class="nav__logo--img" src="logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="LOGO">
+            <div class="nav__logo--title">Treact</div>
+          </div>
+          <div class="nav__links">
+            <a href="#" class="nav__link">About</a>
+            <a href="#" class="nav__link">Blog</a>
+            <a href="#" class="nav__link">Pricing</a>
+            <a href="#" class="nav__link">Contact Us</a>
+            <a href="#" class="nav__link login">Login</a>
+            <a href="#" class="nav__link nav__link--primary">Sign Up</a>
+          </div>
+          <button class="btn__menu" onclick="openMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </nav>
+          <div class="menu">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+            </button>
+                <div class="menu__links">
+                    <a class="menu__link" href="#About" onclick="closeMenu()">About</a>
+                    <a class="menu__link" href="#Blog" onclick="closeMenu()">Blog</a>
+                    <a class="menu__link" href="#pricing" onclick="closeMenu()">Pricing</a>
+                    <a class="menu__link" href="#contact us" onclick="closeMenu()">Contact Us</a>
+                    <a class="menu__link" href="#login" onclick="closeMenu()">Login</a>
+                    <a class="menu__link menu__link--primary" href="#signup" onclick="closeMenu()">Sign Up</a>
+                </div>
+             </div>
+            <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="header__description">
+                            <h1>
+                                Beautiful React Templates
+                                <span class="purple">for you.</span>
+                            </h1>
+                            <p class="header__description--para">
+                                Our templates are easy to setup, understand and customize. Fully modular companents with a variety of pages and components.
+                            </p>
+                            <div class="header__email">
+                                <input class="header__email--input" type="text" placeholder="Your email Address">
+                                <button class="header__email--btn">Get Started</button>
+                                </div>
+                                <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+                                <img src="customers-logo-strip.680ac7c2e8ae28161d2c.png">
+                            </div>
+                            <figure class="header__img--wrapper">
+                                <img class="header__img" src="design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8 - Copy.svg">
+                            </figure>
+                        </div>
+                </div>
+                </header>
+            </section>
+            <main>
+        <section id="features">
+            <div class="container">
+                <div class="row__narrow">
+                    <h4 class="section__tag">Features</h4>
+                    <h2 class="section__title">We Have Amazing <span class="purple">Service.</span></h2>
+                    <div class="section__para">Our templates are designed to be easy to use and customize, so you can get your project up and running in no time.</div>
+                    <div class="features">
+                        <div class="feature">
+                        <div class="feature__row">
+                  <figure class="feature__img--wrapper">
+                    <img src="shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="feature__img">
+                  </figure>
+                  <div class="feature__text">
+                    <h2 class="feature__title">Secure</h2>
+                    <p class="feature__para">Our templates are built with security in mind, so you can rest assured that your project is safe and secure.</p>
+                </div>
+                </div>
+                </div>
+                <div class="feature">
+                <div class="feature__row">
+                    <figure class="feature__img--wrapper">
+                        <img class="feature_img" src="support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg">
+                    </figure>
+                    <div class="feature__text">
+                        <h2 class="feature__title">24/7 Support</h2>
+                        <p class="feature__para">Our support team is available 24/7 to help you with any questions or issues you may have.</p>
+                        </div>
+                </div>
+                </div>
+                <div class="feature">
+                    <div class="feature__row">
+                        <figure class="feature__img--wrapper">
+                            <img class="feature__img" src="customize-icon.367468c90fd796009b97fbfba67b2c6a.svg">
+                        </figure>
+                        <div class="feature__text">
+                            <h2 class="feature__title">Customizable</h2>
+                            <p class="feature__para">Our templates are fully customizable, so you can easily tailor them to your specific needs.</p>
+                        </div>
+                    </div>
+                     </div>
+    
+            <div class="feature">
+                <div class="feature__row">
+                    <figure class="feature__img--wrapper">
+                        <img class="feature__img" src="reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg">
+                    </figure>
+                    <div class="feature__text">
+                        <h2 class="feature__title">Reliable</h2>
+                        <p class="feature__para">Our templates are designed to be fully responsive, so they look great on any device.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+            <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                    <img class="feature__img" src="fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg">
+                </figure>
+                <div class="feature__text">
+                    <h2 class="feature__title">Fast</h2>
+                    <p class="feature__para">Our templates are optimized for performance, so your project will load quickly and run smoothly.</p>
+                </div>
+            </div>
+            </div>
+            <div class="feature">
+            <div class="feature__row">
+                <figure class="feature__img--wrapper">
+                    <img class="feature__img" src="simple-icon.673b7e1750b2a4ef32907fc164828d00.svg">
+                </figure>
+                <div class="feature__text">
+                    <h2 class="feature__title">Easy to Use</h2>
+                    <p class="feature__para">Our templates are designed to be easy to use and understand, so you can get started quickly.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+<section id="quality">
+        <div class="container">
+          <div class="row">
+            <div class="quality__description">
+              <div class="section__tag">QUALITY WORK</div>
+              <h2 class="section__title">
+                Designed &amp; Developed by
+                <span class="purple">Profressionals.</span>
+              </h2>
+              <p class="section__para">
+                Our templates are created by a team of experienced designers and developers who are passionate about creating high-quality products.
+              </p>
+              <button class="btn">Learn More</button>
+            </div>
+            <figure class="quality__img--wrapper">
+              <img src="hero-screenshot-1.40a097b525c2f8c9808e.png" class="quality__img">
+              <svg viewBox="0 0 1280 1280" class="quality__grid">
+                <path d="M55 33.5C44.5 37 35 47.6 32.8 58.3c-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 33.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM55 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 161.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 161.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 161.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM55 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 801.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM439 801.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM567 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 929.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM439 929.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM567 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 1057.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM439 1057.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM567 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6z"></path>
+              </svg>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+
+        <section id="steps">
+            <div class="container">
+                <div class="row">
+                    <figure class="steps__img--wrapper">
+                       <img src="hero-screenshot-2.241aac1fbc66db29d873.png" class="steps__img" alt="Dashboard Screenshot">
+                    <svg viewBox="0 0 1280 1280" class="steps__grid" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <path id="line-of-balls" d="M55 33.5C44.5 37 35 47.6 32.8 58.3c-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 33.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5z"></path>
+                </defs>
+
+                <!-- Repeat the line 10 times with vertical spacing -->
+                <g fill="rgba(100, 21, 255, 0.15)">
+                  <use href="#line-of-balls" transform="translate(0, 0)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 100)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 200)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 300)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 400)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 500)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 600)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 700)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 800)"></use>
+                  <use href="#line-of-balls" transform="translate(0, 900)"></use>
+                </g>
+              </svg>
+                    </figure>
+                    <div class="steps__description">
+                        <div class="section__tag">STEPS</div>
+                        <h2 class="section__title">Easy to<span class="purple">Started</span></h2>
+                     <div class="step__list">
+                        <div class="step">
+                            <div class="step__number">01</div>
+                            <div class="step__description">
+                    <div class="step__title">Register</div>
+                    <p class="step__para">
+                      Create an account with us using Google or Facebook.
+                    </p>
+                  </div>
+                        </div>
+                  <div class="step">
+                  <div class="step__number">02</div>
+                  <div class="step__description">
+                    <div class="step__title">Download</div>
+                    <p class="step__para">
+                      Browse and Download the template that you like from the
+                      marketplace.
+                    </p>
+                  </div>
+                  </div>
+                    <div class="step">
+                        <div class="step__number">03</div>
+                        <div class="step__description">
+                            <div class="step__title">Run</div>
+                            <p class="step__para">
+                              Start customizing the template to suit your needs and
+                              launch your project.</p>
+                        </div>
+                     </div>
+                     </div>
+            </div>
+        </section>
+        <section id="values">
+        <div class="container">
+          <div class="row">
+            <div class="values__description">
+              <div class="section__tag">VALUES</div>
+              <h2 class="section__title">
+                We Always Abide by Our <span class="purple">Principles.</span>
+              </h2>
+              <div class="section__para">
+                Our core values drive everything we do. They guide our
+                decisions, shape our culture, and define our commitment to
+                delivering the best templates for our customers.
+              </div>
+              <div class="values__list">
+                <div class="value">
+                  <div class="value__title">
+                    <figure class="value__img--wrapper">
+                      <!-- TO GET THIS ICON GO TO https://feathericons.com -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(39, 103, 73, 1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="value__img">
+                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                      </svg>
+                    </figure>
+                    <div class="value__name">Affordable</div>
+                  </div>
+                  <div class="value__para">
+                    We promise to offer you the best rate we can - at par with
+                    the industry standard.
+                  </div>
+                </div>
+                <div class="value">
+                  <div class="value__title">
+                    <figure class="value__img--wrapper">
+                      <!-- TO GET THIS ICON GO TO https://feathericons.com -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(155, 44, 44, 1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="value__img">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                      </svg>
+                    </figure>
+                    <div class="value__name">Professionalism</div>
+                  </div>
+                  <div class="value__para">
+                    We assure you that our templates are designed and created by
+                    professional designers.
+                  </div>
+                </div>
+              </div>
+              <button class="btn">Learn More</button>
+            </div>
+            <img class="values__img" src="prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg">
+          </div>
+        </div>
+      </section>
+        <section id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="section__tag">PRICING</div>
+                    <h2 class="section__title">Reasonable & Flexible <span class="purple">Plans</span></h2>
+                    <div class="section__para">Choose a pricing plan that fits your needs. Our plans are designed to be flexible and affordable, so you can get the most out of our templates without breaking the bank.</div>
+                     <div class="plans">
+                        <div class="plan">
+                            <div class="plan__stripe"></div>
+                            <div class="plan__top">
+                                <div class="plan__name">Personal</div>
+                                <div class="plan__price">$17.99</div>
+                                    <div class="plan__duration">monthly</div>           
+                                    </div>
+                                <div class="plan__middle">
+                            <div class="plan__taget">For Individuals</div>
+                                <p class="plan__feature">30 templates</p>
+                                <p class="plan__feature">7 landing pages</p>
+                                <p class="plan__feature">12 Internal Pages</p>
+                                <p class="plan__feature">Basic Assistance</p>
+                                </div>
+                                <div class="plan__bottom">
+                            <button class="btn plan__btn">Buy Now</button>
+                        </div>
+                        </div>
+                        <div class="plan">
+                        <div class="plan__stripe"></div>
+                            <div class="plan__top">
+                                <div class="plan__name">Business</div>
+                                <div class="plan__price">37.99</div>
+                                <div class="plan__duration">Monthly</div>
+                            </div>
+                            <div class="plan__middle">
+                            <div class="plan__taget">For Small Businesses</div>
+                                <p class="plan__feature">60 templates</p>
+                                <p class="plan__feature">15 Landing Pages</p>
+                                <p class="plan__feature">Intenal Pages</p>
+                                <p class="plan__feature">Priority Assistance</p>
+                            </div>
+                            <div class="plan__bottom">  
+                            <button class="btn plan__btn">Buy Now</button>
+                        </div>
+                </div>
+                        <div class="plan">
+                            <div class="plan__stripe"></div>
+                            <div class="plan__top">
+                                <div class="plan__name">Enterprise</div>
+                                <div class="plan__price">$57.99</div>
+                                <div class="plan__duration">MONTHLY</div>
+                            </div>
+                            <div class="plan__middle">
+                                <div class="plan__taget">For Large Companies</div>
+                                <p class="plan__feature">90 templates</p>
+                                <p class="plan__feature">27 landing pages</p>
+                                <p class="plan__feature">Internal Pages</p>
+                                <p class="plan__feature">Personal Assistance</p>
+                            
+                            </div>
+                            <div class="plan__bottom">
+                            <button class="btn plan__btn">Buy Now</button>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <img class="testimonials__img" src="love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="">
+                    <div class="testimonials__description">
+                        <div class="section__tag">TESTIMONIALS</div>
+                        <h2 class="section__title">Our Clients<span class="purple">LOVE US</span>
+                        </h2>
+                        <p class="section__para">Don't just take our word for it - see what our satisfied customers have to say about our templates!</p>
+                        <div class="testimonial">
+                            <div class="testimonial__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3 class="testimonial__title">Amazing User Experience</h3>
+                            <div class="testimonial__author">- Charlotte Hale, Web Developer</div>
+                        </div>
+                        <p class="testimonial__para">"As a small business owner, Treact's affordable pricing plans made it possible for us to establish a strong online presence without breaking the bank. The templates are user-friendly and the support team is fantastic!"</p>
+                        <div class="testimonial__bottom">
+                                <img class="testimonial__img" src="photo-1494790108377-be9c29b29330.avif" alt="Emily R., Marketing Manager">
+                                <div class="testimonial_details">
+                                    <div class="testimonial__name">Charlotte Hale</div>
+                                    <div class="testimonial__role">Director, Delos Inc.</div>
+                                </div>
+                            </div>
+                            <div class="testimonial__buttons">
+                            <button class="testimonial__button">
+                            <svg fill="none" stroke="rgb(100,21,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                        <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                      </svg>
+                    </button>
+                        <div class="divider"></div>
+                        <button class="testimonial__button">
+                        <svg fill="none" stroke="rgb(100,21,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                        <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg>
+                      </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </section>
+        <section id="start">
+            <div class="container">
+                <div class="row">
+                    <svg viewBox="0 0 600 600" class="start__blob--1">
+              <g transform="translate(300,300)">
+                <path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="rgb(80,17,204)"></path>
+              </g>
+            </svg>
+            <svg viewBox="0 0 600 600" class="start__blob--2">
+              <g transform="translate(300,300)">
+                <path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="rgb(80,17,204)"></path>
+              </g>
+            </svg>
+            <div class="start__container">
+                <div class="start__row">
+            <div class="start__title">
+            Developers all over the world are happily using Treact.</div>
+            <div class="start__buttons"></div>
+<button class="btn start__btn">Get Started</button>
+    <button class="btn start__btn">Contact Us</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <svg viewBox="0 0 600 600" class="footer__blob--1">
+        <g transform="translate(300,300)">
+          <path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="rgba(80,17,204)"></path>
+        </g>
+      </svg>
+      <svg viewBox="0 0 600 600" class="footer__blob--2">
+        <g transform="translate(300,300)">
+          <path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="rgba(80,17,204)"></path>
+        </g>
+      </svg>
+        <div class="row footer__row">
+            <div class="footer__columns">
+                <div class="footer__column">
+                    <div class="footer__title">Main</div>
+                    <a class="footer__link" href="#">Blog</a>
+                    <a class="footer__link" href="#">FAQs</a>
+                    <a class="footer__link" href="#">Support</a>
+                    <a class="footer__link" href="#">About Us</a>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__title">Product</div>
+                    <a class="footer__link" href="#">Log In</a>
+                    <a class="footer__link" href="#">Personal</a>
+                    <a class="footer__link" href="#">Business</a>
+                    <a class="footer__link" href="#">Team</a>
+            </div>
+            <div class="footer__column">
+                <div class="footer__title">Press</div>
+                <a class="footer__link" href="#">Logos</a>
+                <a class="footer__link" href="#">Events</a>
+                <a class="footer__link" href="#">Stories</a>
+                <a class="footer__link" href="#">Office</a>
+            </div>
+            <div class="footer__column">
+                <div class="footer__title">Team</div>
+                <a class="footer__link" href="#">Career</a>
+                <a class="footer__link" href="#">Founders</a>
+                <a class="footer__link" href="#">Culture</a>
+                <a class="footer__link" href="#">Onboarding</a>
+            </div>
+            <div class="footer__column">
+                <div class="footer__title">Legal</div>
+                <a class="footer__link" href="#">GDPR</a>
+                <a class="footer__link" href="#">Privacy Policy</a>
+                <a class="footer__link" href="#">Terms of Service</a>
+                <a class="footer__link" href="#">Disclaimer</a>
+            </div>
+            <div class="footer__divider"></div>
+            <div class="footer__bottom">
+                <div class="footer__logo">
+                    <img class="footer__logo--img" src="logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="LOGO">
+                    <h5 class="footer__logo--text">Treact Inc.</h5>
+                    </div>
+                    <div class="footer__copyright">© 2024 Treact. All rights reserved.</div>
+                    <div class="footer__socials">
+                        <a class="footer__social--link"></a>
+                            <i class="fab fa-facebook-f"></i>
+                        <a class="footer__social--link"></a>
+                            <i class="fab fa-twitter"></i>
+                        <a class="footer__social--link"></a>
+                            <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    </div>
+            </div>
+        </footer>
+    </body>
+</html>
